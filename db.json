@@ -1,39 +1,14 @@
 {
-    "startedDateTime": "2023-06-12T20:37:13.886Z",
-    "finishedDateTime": "2023-06-12T20:37:15.518Z",
-    "user": {
-        "_id": "644af229576b5b03679a6e70",
-        "email": "ali@ali.com"
-    },
-    "answers": [
-        {
-            "answerId": "87e949d7-3ffe-4cf9-b3d2-9896c5388504",
-            "questionId": "ecafb6ec-4f56-4286-b1b9-adcd92ded347",
-            "nextQuestionId": "",
-            "questionTitle": "aa",
-            "questionBody": "<p class=\"bf-wysiwyg-top\">&nbsp;aa</p>",
-            "questionType": "single",
-            "isPrivate": false,
-            "answerText": "aa",
-            "index": 0,
-            "score": 2
-        }
-    ],
-    "instanceId": "65c5383b-c90d-4bd8-9aa8-fff908674622-1686418286602",
-    "anonymous": false,
-    "_buildfire": {
-        "index": {
-            "string1": "644af229576b5b03679a6e70",
-            "text": "ali@ali.com undefined",
-            "date1": "2023-06-12T20:37:13.886Z",
-            "array1": [
-                {
-                    "date1": "2023-06-12T20:37:15.518Z"
-                },
-                {
-                    "string1": "anonymous_false"
-                }
-            ]
-        }
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
